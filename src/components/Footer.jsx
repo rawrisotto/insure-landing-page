@@ -1,9 +1,8 @@
-import React from "react";
 import logo from "/images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-20">
+    <footer className="bg-neutral-300 bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-20">
       <div className="flex flex-col md:flex-row md:justify-between gap-8 items-center">
         <img className="h-5 w-fit" src={logo} alt="Insure Logo" />
         <div className="flex gap-4">
