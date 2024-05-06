@@ -16,9 +16,15 @@ export default {
       fontFamily: {
         'heading': ['Karla', 'sans-serif'],
         'body': ['DM Serif Display', 'serif']
+      },
+      backgroundImage: {
+        'hamburger': "url('/images/icon-hamburger.svg')",
+        'close': "url('/images/icon-close.svg')",
+        'nav-menu': "url('/images/bg-pattern-mobile-nav.svg')",
+        'footer-mobile': "url('/images/bg-pattern-footer-mobile.svg')",
+        'footer-desktop': "url('/images/bg-pattern-footer-desktop.svg')"
       }
     },
   },
   plugins: [],
 }
-
