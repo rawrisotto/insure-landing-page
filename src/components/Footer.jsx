@@ -3,8 +3,8 @@ import logo from "/images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-no-repeat bg-contain bg-footer-mobile py-24 px-6">
-      <div className="flex flex-col gap-8 items-center">
+    <footer className="bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-32">
+      <div className="flex flex-col md:flex-row md:justify-between gap-8 items-center">
         <img className="h-5 w-fit" src={logo} alt="Insure Logo" />
         <div className="flex gap-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -38,13 +38,12 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* <div className="w-full h-[1px] bg-[#837D88] my-16"></div> */}
-      <hr className="my-14" />
+      <hr className="mt-12" />
 
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col md:flex-row text-center md:text-left">
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 mb-12">our company</p>
-          <div className="flex flex-col items-center gap-4">
+          <p className="text-neutral-400 my-12">our company</p>
+          <div className="flex flex-col items-center md:items-start gap-4">
             <p className="cursor-pointer hover:underline w-fit">how we work</p>
             <p className="cursor-pointer hover:underline w-fit">why insure?</p>
             <p className="cursor-pointer hover:underline w-fit">view plans</p>
@@ -53,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
           <p className="text-neutral-400 my-12">help me</p>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center md:items-start gap-4">
             <p className="cursor-pointer hover:underline w-fit">faq</p>
             <p className="cursor-pointer hover:underline w-fit">terms of use</p>
             <p className="cursor-pointer hover:underline w-fit">privacy policy</p>
@@ -62,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
           <p className="text-neutral-400 my-12">our company</p>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center md:items-start gap-4">
             <p className="cursor-pointer hover:underline w-fit">how we work</p>
             <p className="cursor-pointer hover:underline w-fit">why insure?</p>
             <p className="cursor-pointer hover:underline w-fit">view plans</p>
@@ -71,7 +70,7 @@ const Footer = () => {
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
           <p className="text-neutral-400 my-12">our company</p>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center md:items-start gap-4">
             <p className="cursor-pointer hover:underline w-fit">how we work</p>
             <p className="cursor-pointer hover:underline w-fit">why insure?</p>
             <p className="cursor-pointer hover:underline w-fit">view plans</p>
