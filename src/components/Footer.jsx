@@ -3,7 +3,7 @@ import logo from "/images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-32">
+    <footer className="bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-20">
       <div className="flex flex-col md:flex-row md:justify-between gap-8 items-center">
         <img className="h-5 w-fit" src={logo} alt="Insure Logo" />
         <div className="flex gap-4">
@@ -60,21 +60,19 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 my-12">our company</p>
+          <p className="text-neutral-400 my-12">contact</p>
           <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">how we work</p>
-            <p className="cursor-pointer hover:underline w-fit">why insure?</p>
-            <p className="cursor-pointer hover:underline w-fit">view plans</p>
-            <p className="cursor-pointer hover:underline w-fit">reviews</p>
+            <p className="cursor-pointer hover:underline w-fit">sales</p>
+            <p className="cursor-pointer hover:underline w-fit">support</p>
+            <p className="cursor-pointer hover:underline w-fit">live chat</p>
           </div>
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
           <p className="text-neutral-400 my-12">our company</p>
           <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">how we work</p>
-            <p className="cursor-pointer hover:underline w-fit">why insure?</p>
-            <p className="cursor-pointer hover:underline w-fit">view plans</p>
-            <p className="cursor-pointer hover:underline w-fit">reviews</p>
+            <p className="cursor-pointer hover:underline w-fit">careers</p>
+            <p className="cursor-pointer hover:underline w-fit">press</p>
+            <p className="cursor-pointer hover:underline w-fit">licenses</p>
           </div>
         </div>
       </div>
