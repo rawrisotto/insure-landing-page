@@ -21,7 +21,7 @@ const Navbar = () => {
   })
 
   return (
-    <header className="flex items-center justify-between py-8 px-6 border-b-2 relative">
+    <header className="flex items-center justify-between py-8 px-6 md:px-20 border-b-2 relative">
       <h1 className="cursor-pointer">
         <img className="h-5" src={logo} alt="Insure Logo" />
       </h1>
