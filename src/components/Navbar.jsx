@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "/images/logo.svg";
 import hamburger from "/images/icon-hamburger.svg";
 import close from "/images/icon-close.svg";
@@ -10,6 +10,16 @@ const Navbar = () => {
     setMenuOpen((prevState) => !prevState);
   };
 
+  useEffect(() => {
+    function handleWindowResize() {
+      if (window.innerWidth > 768) {
+        setMenuOpen(false)
+      }
+    }
+    window.addEventListener('resize', handleWindowResize)
+    return () => window.removeEventListener('resize', handleWindowResize)
+  })
+
   return (
     <header className="flex items-center justify-between py-8 px-6 border-b-2 relative">
       <h1 className="cursor-pointer">
@@ -20,12 +30,12 @@ const Navbar = () => {
       </button>
       <nav
         className={
-          "absolute top-[100%] left-0 w-full" +
+          "absolute md:relative top-[100%] left-0 w-full md:w-fit" +
           (menuOpen ? " h-[520px] py-10" : " h-0") +
-          " transition-all duration-500 overflow-hidden bg-nav-menu bg-no-repeat bg-bottom bg-neutral-800"
+          " md:h-fit transition-all md:transition-none duration-500 overflow-hidden bg-nav-menu md:bg-none bg-no-repeat bg-contain bg-bottom bg-neutral-800 md:bg-inherit"
         }
       >
-        <ul className="flex flex-col text-center gap-8 font-heading text-lg text-neutral-100">
+        <ul className="flex flex-col md:flex-row text-center gap-8 font-heading text-lg text-neutral-100 md:text-neutral-800">
           <li className="uppercase cursor-pointer hover:text-neutral-800">
             How We Work
           </li>
@@ -46,4 +56,6 @@ const Navbar = () => {
 
 export default Navbar;
 
-// absolute top-[100%] left-0 h-0 overflow-hidden w-full py-10 bg-nav-menu bg-no-repeat bg-bottom bg-neutral-800
+// "absolute top-[100%] left-0 w-full" +
+//           (menuOpen ? " h-[520px] py-10" : " h-0") +
+//           " transition-all duration-500 overflow-hidden bg-nav-menu bg-no-repeat bg-bottom bg-neutral-800 md:relative"
