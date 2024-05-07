@@ -21,8 +21,9 @@ const Main = () => {
           src={patternRightDesktop}
         />
         <picture className="lg:order-2 relative">
+          <img className="lg:hidden w-full" src={heroMobile} alt="Hero Image" />
           <img
-            className="lg:flex-1 w-full lg:w-fit lg:absolute"
+            className="hidden lg:block w-full absolute"
             src={heroDesktop}
             alt="Hero Image"
           />
@@ -41,7 +42,7 @@ const Main = () => {
             expertise and technology to help you find the plan that&apos;s right
             for you. Ensure you and your loved ones are protected.
           </p>
-          <button className="uppercase mt-12 border-solid border-2 border-neutral-100 py-2 px-8">
+          <button className="uppercase font-bold mt-12 border-solid border-2 border-neutral-100 py-2 px-8 hover:bg-neutral-100 hover:text-primary-700">
             View Plans
           </button>
         </div>
@@ -97,7 +98,7 @@ const Main = () => {
           <h3 className="font-body text-4xl lg:text-[3.5rem] mb-8 lg:mb-0 lg:basis-1/2">
             Find out more about how we work
           </h3>
-          <button className="uppercase h-fit border-solid border-2 border-neutral-100 py-2 px-6 w-fit whitespace-nowrap">
+          <button className="uppercase font-bold h-fit border-solid border-2 border-neutral-100 py-2 px-6 w-fit whitespace-nowrap hover:bg-neutral-100 hover:text-primary-700">
             How we work
           </button>
         </div>

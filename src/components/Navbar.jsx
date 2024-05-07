@@ -37,17 +37,17 @@ const Navbar = () => {
         }
       >
         <ul className="flex flex-col items-center lg:flex-row text-center gap-8 font-heading text-lg text-neutral-100 lg:text-neutral-400">
-          <li className="uppercase cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
+          <li className="uppercase font-bold cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
             How We Work
           </li>
-          <li className="uppercase cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
+          <li className="uppercase font-bold cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
             Blog
           </li>
-          <li className="uppercase cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
+          <li className="uppercase font-bold cursor-pointer hover:text-neutral-800 tracking-widest lg:tracking-wide text-xl lg:text-base">
             Account
           </li>
           <li>
-            <button className="uppercase cursor-pointer tracking-widest lg:tracking-wide text-xl lg:text-base border-2 border-neutral-100 lg:border-primary-700 border-solid py-2 px-7">
+            <button className="uppercase font-bold cursor-pointer tracking-widest lg:tracking-wide text-xl lg:text-base border-2 border-neutral-100 lg:border-primary-700 border-solid py-2 px-7 hover:bg-primary-700 hover:text-neutral-100">
               View Plans
             </button>
           </li>
