@@ -2,8 +2,8 @@ import logo from "/images/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-300 bg-no-repeat bg-contain md:bg-auto bg-footer-mobile md:bg-footer-desktop py-24 px-6 md:px-20">
-      <div className="flex flex-col md:flex-row md:justify-between gap-8 items-center">
+    <footer className="bg-neutral-300 bg-no-repeat bg-contain lg:bg-auto bg-footer-mobile lg:bg-footer-desktop py-24 lg:py-16 px-6 lg:px-28 xl:px-44">
+      <div className="flex flex-col lg:flex-row lg:justify-between gap-8 items-center">
         <img className="h-5 w-fit" src={logo} alt="Insure Logo" />
         <div className="flex gap-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
@@ -37,41 +37,41 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="mt-12" />
+      <hr className="mt-8" />
 
-      <div className="flex flex-col md:flex-row text-center md:text-left">
+      <div className="flex flex-col lg:flex-row text-center lg:text-left">
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 my-12">our company</p>
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">how we work</p>
-            <p className="cursor-pointer hover:underline w-fit">why insure?</p>
-            <p className="cursor-pointer hover:underline w-fit">view plans</p>
-            <p className="cursor-pointer hover:underline w-fit">reviews</p>
+          <p className="text-neutral-400 my-10 text-sm tracking-wider">our company</p>
+          <div className="flex flex-col items-center lg:items-start gap-2">
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">how we work</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">why insure?</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">view plans</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">reviews</p>
           </div>
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 my-12">help me</p>
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">faq</p>
-            <p className="cursor-pointer hover:underline w-fit">terms of use</p>
-            <p className="cursor-pointer hover:underline w-fit">privacy policy</p>
-            <p className="cursor-pointer hover:underline w-fit">cookies</p>
+          <p className="text-neutral-400 my-10">help me</p>
+          <div className="flex flex-col items-center lg:items-start gap-2">
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">faq</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">terms of use</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">privacy policy</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">cookies</p>
           </div>
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 my-12">contact</p>
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">sales</p>
-            <p className="cursor-pointer hover:underline w-fit">support</p>
-            <p className="cursor-pointer hover:underline w-fit">live chat</p>
+          <p className="text-neutral-400 my-10">contact</p>
+          <div className="flex flex-col items-center lg:items-start gap-2">
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">sales</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">support</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">live chat</p>
           </div>
         </div>
         <div className="flex-1 uppercase text-primary-700 font-bold">
-          <p className="text-neutral-400 my-12">our company</p>
-          <div className="flex flex-col items-center md:items-start gap-4">
-            <p className="cursor-pointer hover:underline w-fit">careers</p>
-            <p className="cursor-pointer hover:underline w-fit">press</p>
-            <p className="cursor-pointer hover:underline w-fit">licenses</p>
+          <p className="text-neutral-400 my-10">our company</p>
+          <div className="flex flex-col items-center lg:items-start gap-2">
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">careers</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">press</p>
+            <p className="cursor-pointer hover:underline w-fit text-sm tracking-wide">licenses</p>
           </div>
         </div>
       </div>
