@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/rawrisotto/insure-landing-page)
+- Live Site URL: [Vercel](https://insure-landing-page-one-khaki.vercel.app/)
 
 ## My process
 
