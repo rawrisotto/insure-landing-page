@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![solution](/design/solution.png)
+![solution](./public/design/solution.png)
 
-![soluiton-mobile](/design/solution-mobile.png)
+![soluiton-mobile](./public/design/solution-mobile.png)
 
 ### Links
 
